@@ -1,0 +1,745 @@
+body {
+    background-color: rgb(17, 17, 21);
+    list-style: none;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #161b22;
+    color: white;
+    height: 70px;
+    width: 1535px;
+    font-size: 13px;
+    margin-left: -120px;
+    font-weight: 600;
+}
+
+.nav-ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-top: 5px;
+
+}
+
+.search {
+    background-color: rgb(17, 17, 21);
+    width: 240px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    padding-left: 15px;
+    border: solid 1px rgb(170, 170, 170);
+}
+
+
+
+.nav-ul-li2 {
+    margin-left: 10px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+
+.nav-ul-li3 {
+    margin-top: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.nav-ul-li3:hover {
+    color: rgb(159, 159, 159);
+}
+
+
+.nav-ul-li4 {
+    margin-top: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-ul-li4:hover {
+    color: rgb(159, 159, 159);
+}
+
+
+.nav-ul-li5 {
+    margin-top: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-ul-li5:hover {
+    color: rgb(159, 159, 159);
+}
+
+.nav-ul-li6 {
+    margin-top: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-ul-li6:hover {
+    color: rgb(159, 159, 159);
+}
+
+.nav-ul-li7 {
+    margin-top: 5px;
+    margin-left: 750px;
+    cursor: pointer;
+}
+
+.nav-ul-li8 {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.nav-ul-li9 {
+    margin-top: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.section-ul {
+    display: flex;
+    list-style-type: none;
+    color: white;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 350px;
+    text-decoration: none;
+
+}
+
+.section-ul-li1 {
+
+    transition: all 0.5s ease;
+    border: solid;
+    border-radius: 5px;
+    padding: 2px 3px;
+    background-color: rgb(17, 17, 21);
+    border-color: rgb(17, 17, 21);
+    cursor: pointer;
+}
+
+.section-ul-li1:hover {
+    border: solid;
+    background: rgb(80, 80, 80);
+    border-color: rgb(80, 80, 80);
+}
+
+.section-ul-li2 {
+
+    margin-left: 50px;
+    transition: all 0.5s ease;
+    border: solid;
+    border-radius: 5px;
+    padding: 2px 3px;
+    background-color: rgb(17, 17, 21);
+    border-color: rgb(17, 17, 21);
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 4px;
+}
+
+.section-ul-li2:hover {
+    border: solid;
+    background: rgb(80, 80, 80);
+    color: white;
+    border-color: rgb(80, 80, 80);
+
+}
+
+
+.section-ul-li3 {
+    margin-left: 50px;
+    transition: all 0.5s ease;
+    border: solid;
+    border-radius: 5px;
+    padding: 2px 3px;
+    background-color: rgb(17, 17, 21);
+    border-color: rgb(17, 17, 21);
+    cursor: pointer;
+}
+
+.section-ul-li3:hover {
+    border: solid;
+    background: rgb(80, 80, 80);
+
+    border-color: rgb(80, 80, 80);
+}
+
+.section-ul-li4 {
+    margin-left: 50px;
+    transition: all 0.5s ease;
+    border: solid;
+    border-radius: 5px;
+    padding: 2px 3px;
+    background-color: rgb(17, 17, 21);
+    border-color: rgb(17, 17, 21);
+    cursor: pointer;
+}
+
+.section-ul-li4:hover {
+    border: solid;
+    background: rgb(80, 80, 80);
+    border-color: rgb(80, 80, 80);
+}
+
+.section-ul-li5 {
+    margin-left: 50px;
+    transition: all 0.5s ease;
+    border: solid;
+    border-radius: 5px;
+    padding: 2px 3px;
+    background-color: rgb(17, 17, 21);
+    border-color: rgb(17, 17, 21);
+    cursor: pointer;
+}
+
+.section-ul-li5:hover {
+    border: solid;
+    background: rgb(80, 80, 80);
+
+    border-color: rgb(80, 80, 80);
+}
+
+.p-teg {
+    margin-top: -20px;
+    margin-left: -120px;
+
+}
+
+
+.images {
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
+.p-teg2 {
+
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(169, 169, 169);
+    margin-left: 50px;
+}
+
+
+.click {
+    width: 280px;
+    margin-left: 50px;
+    border: solid 1px;
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 10px;
+    border-color: rgb(66, 66, 66);
+    cursor: pointer;
+    background-color: #161b22;
+    transition: all 0.5 ease;
+    -webkit-transition: all 0.5 ease;
+    -moz-transition: all 0.5 ease;
+    -ms-transition: all 0.5 ease;
+    -o-transition: all 0.5 ease;
+}
+
+
+.click:hover {
+    border-color: white;
+    opacity: 75%;
+    background-color: #242c37;
+}
+
+.click:active {
+    background-color: rgb(129, 123, 123);
+}
+
+
+
+.follow {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 60px;
+    font-size: 13px;
+}
+
+.followers {
+    color: white;
+    text-decoration: none;
+}
+
+.following {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.popular {
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    margin-left: 370px;
+    margin-top: -360px;
+}
+
+.row {
+    margin-left: 350px;
+    display: flex;
+    align-content: space-around;
+}
+
+.card {
+
+    background-color: rgb(17, 17, 21);
+    border-color: gray;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+
+
+.card-title {
+    font-size: 14px;
+
+}
+
+.card-title:hover {
+    text-decoration: underline;
+}
+
+.maket {
+    text-decoration: none;
+}
+
+.public {
+    font-size: 11px;
+    color: gray;
+    border: 1px solid gray;
+    width: 45px;
+    padding-left: 6px;
+    border-radius: 15px;
+    padding-bottom: 2px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-left: 360px;
+    margin-top: -25px;
+}
+
+.p-code {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(150, 83, 214);
+    border-radius: 5px;
+    border-color: gray;
+    margin-top: 35px;
+}
+
+.p-css {
+    color: gray;
+    margin-top: -35.5px;
+    margin-left: 13px;
+}
+
+.p-code2 {
+    width: 10px;
+    height: 10px;
+    background-color: orangered;
+    border-radius: 5px;
+    border-color: gray;
+    margin-top: 35px;
+}
+
+.p-css2 {
+    color: gray;
+    margin-top: -30.3px;
+    margin-left: 13px;
+    font-size: 12px;
+}
+
+.p-code3 {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(160, 69, 160);
+    border-radius: 5px;
+    border-color: gray;
+    margin-top: 35px;
+}
+
+.p-scss {
+    color: gray;
+    margin-top: -35.5px;
+    margin-left: 13px;
+}
+
+
+
+
+.footer-ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 20vh;
+}
+
+
+
+.Footer-ul-li {
+    text-decoration: none;
+    font-size: 13px;
+    color: cornflowerblue;
+
+}
+
+
+.Footer-ul-li:hover {
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+
+.Footer-ul-li1 {
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    position: relative;
+    left: -40px;
+}
+
+.Footer-ul-li1:hover {
+    text-decoration: underline;
+
+}
+
+
+
+.section-ul2 {
+
+    display: flex;
+    list-style-type: none;
+    color: white;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.section-ul-li2-1 {
+
+    transition: all 0.5s ease;
+    border: solid;
+    border-radius: 5px;
+    padding: 2px 3px;
+    background-color: rgb(17, 17, 21);
+    border-color: rgb(17, 17, 21);
+    cursor: pointer;
+}
+
+.section-ul-li2-1:hover {
+    border: solid;
+    background: rgb(80, 80, 80);
+    border-color: rgb(80, 80, 80);
+}
+
+.section-ul-li2-2 {
+
+    margin-left: 50px;
+    transition: all 0.5s ease;
+    border: solid;
+    border-radius: 5px;
+    padding: 2px 3px;
+    background-color: rgb(17, 17, 21);
+    border-color: rgb(17, 17, 21);
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 4px;
+}
+
+.section-ul-li2-2:hover {
+    border: solid;
+    background: rgb(80, 80, 80);
+    color: white;
+    border-color: rgb(80, 80, 80);
+
+}
+
+
+.section-ul-li2-3 {
+    margin-left: 50px;
+    transition: all 0.5s ease;
+    border: solid;
+    border-radius: 5px;
+    padding: 2px 3px;
+    background-color: rgb(17, 17, 21);
+    border-color: rgb(17, 17, 21);
+    cursor: pointer;
+}
+
+.section-ul-li2-3:hover {
+    border: solid;
+    background: rgb(80, 80, 80);
+
+    border-color: rgb(80, 80, 80);
+}
+
+.section-ul-li2-4 {
+    margin-left: 50px;
+    transition: all 0.5s ease;
+    border: solid;
+    border-radius: 5px;
+    padding: 2px 3px;
+    background-color: rgb(17, 17, 21);
+    border-color: rgb(17, 17, 21);
+    cursor: pointer;
+}
+
+.section-ul-li2-4:hover {
+    border: solid;
+    background: rgb(80, 80, 80);
+    border-color: rgb(80, 80, 80);
+}
+
+.section-ul-li2-5 {
+    margin-left: 50px;
+    transition: all 0.5s ease;
+    border: solid;
+    border-radius: 5px;
+    padding: 2px 3px;
+    background-color: rgb(17, 17, 21);
+    border-color: rgb(17, 17, 21);
+    cursor: pointer;
+}
+
+.section-ul-li2-5:hover {
+    border: solid;
+    background: rgb(80, 80, 80);
+
+    border-color: rgb(80, 80, 80);
+}
+
+.p-teg-2 {
+    margin-top: -20px;
+    margin-left: -120px;
+}
+
+
+
+.p-teg2-2 {
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(169, 169, 169);
+    margin-left: 50px;
+}
+
+
+.click2 {
+    width: 280px;
+    margin-left: 50px;
+    border: solid 1px;
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 10px;
+    border-color: rgb(66, 66, 66);
+    cursor: pointer;
+    background-color: #161b22;
+    transition: all 0.5 ease;
+    -webkit-transition: all 0.5 ease;
+    -moz-transition: all 0.5 ease;
+    -ms-transition: all 0.5 ease;
+    -o-transition: all 0.5 ease;
+}
+
+
+.click2:hover {
+    border-color: white;
+    opacity: 75%;
+    background-color: #242c37;
+}
+
+.click2:active {
+    background-color: rgb(129, 123, 123);
+}
+
+
+
+.follow2 {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 60px;
+    font-size: 13px;
+}
+
+.followers2 {
+    color: white;
+    text-decoration: none;
+}
+
+.following2 {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.find {
+    width: 400px;
+    height: 38px;
+    background: rgb(17, 17, 21);
+    border: solid 1px gray;
+    border-radius: 5px;
+    font-size: 14px;
+    padding-left: 15px;
+    margin-left: 450px;
+    position: relative;
+    top: -370px;
+}
+
+.btn {
+    margin-left: 10px;
+}
+
+.btn1 {
+    margin-left: 860px;
+    margin-top: -408px;
+}
+
+.btn3 {
+    position: relative;
+    top: -40px;
+    margin-left: 1120px;
+    background-color: rgb(20, 167, 20);
+    height: 40px;
+    width: 60px;
+    border-radius: 7px;
+    color: white;
+}
+
+.btn3:active {
+    background: rgb(24, 177, 24);
+}
+
+
+
+.cards {
+    position: relative;
+    left: 450px;
+    top: -325px;
+}
+
+.imtihon-3 {
+    text-decoration: none;
+    color: cornflowerblue;
+    transition: all 0.5s ease;
+
+}
+
+.imtihon-3:hover {
+    text-decoration: underline;
+}
+
+.class {
+    display: flex;
+    color: gray;
+
+    font-size: 14px;
+
+}
+
+.p-code-p {
+    width: 10px;
+    height: 10px;
+    background-color: orangered;
+    border-radius: 5px;
+    border-color: gray;
+    margin-top: 35px;
+    position: relative;
+    top: -28px;
+    left: -5px;
+}
+
+.private {
+    font-size: 11px;
+    color: gray;
+    border: 1px solid gray;
+    width: 45px;
+    padding-left: 6px;
+    border-radius: 15px;
+    padding-bottom: 2px;
+    position: relative;
+    left: 150px;
+    top: -27px;
+}
+
+.update {
+    font-size: 12px;
+    position: relative;
+    top: 3px;
+    left: 20px;
+}
+
+.publics {
+
+    width: 10px;
+    height: 10px;
+    background-color: rgb(225, 136, 225);
+    border-radius: 5px;
+    border-color: gray;
+    margin-top: 35px;
+    position: relative;
+    top: -28px;
+    left: -5px;
+
+}
+
+.classs {
+    display: flex;
+    color: gray;
+    position: relative;
+    
+    font-size: 14px;
+
+}
+
+.homework{
+    position: relative;
+    top: 25px;
+    left: -30px;
+}
+
+.codecss{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(125, 63, 182);
+    border-radius: 5px;
+    border-color: gray;
+    margin-top: 35px;
+    position: relative;
+    top: -28px;
+    left: -5px;
+}
+
+.homework1{
+    position: relative;
+    top: -15px;
+    left: 15px;
+}
+
+.cheack{
+    margin-left: 500px;
+    margin-top: -70px;
+    border:solid;
+    padding: 2px 10px;
+    border-radius:10px;
+background:gray;
+color:white;
+border-color:gray;
+}
